@@ -1,0 +1,51 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+*.html
+*.class
+*.idx
+*.bin
+build/tmp/compileJava/previous-compilation-data.bin
+build/test-results/test/TEST-com.demo.unittesting.repository.PersonRepositoryTest.xml
+build/test-results/test/binary/results.bin
+build/test-results/test/binary/output.bin.idx
+build/test-results/test/binary/output.bin
+build/reports/tests/test/packages/com.demo.unittesting.repository.html
+build/reports/tests/test/index.html
+build/reports/tests/test/classes/com.demo.unittesting.repository.PersonRepositoryTest.html
+build/classes/java/main/com/demo/unittesting/domain/Person.class
+build/tmp/compileTestJava/previous-compilation-data.bin
